@@ -2,11 +2,14 @@ table {
     /*border-collapse: collapse;*/
 
 border-spacing:0px;
+    position: fixed;
+    top: 100px;
+    left: 500px;
 
 }
 
 td{
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 8px;
     text-align: center;
@@ -17,4 +20,43 @@ td{
 
 
 
+}
+
+body {background-color: #4d4d4d;}
+
+
+input[type=text], select {
+
+    top:100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffff;
+    text-align: center;
+width: 150px;
+}
+
+input[type=submit] {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 250px;
+
+}
+
+div {
+    left: 200px;
+    top: 100px;
+    border-radius: 5px;
+
+    padding: 20px;
+    width:300px;
 }
